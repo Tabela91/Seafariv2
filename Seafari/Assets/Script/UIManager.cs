@@ -12,10 +12,10 @@ public class UIManager : MonoBehaviour {
 	[SerializeField]
 	private InteractiveButton[] _answers;
 
+   
 	private List <Question> _questions;
 	private int index = 0;
-
-
+    
     void Awake ()
     {
         if (GameController.Instance == null)
@@ -23,17 +23,14 @@ public class UIManager : MonoBehaviour {
             SceneManager.LoadScene(0);
         }
     }
-
-
-	void Start () {
-
-		_questions = GameController.Instance.GetSessionQuestions ();
+    
+    void Start () {
+        _questions = GameController.Instance.GetSessionQuestions ();
 		Prepare ();
-
-	}
-
-
-	void Prepare () {
+        
+    }
+    
+    void Prepare () {
 
         print(index);
 

@@ -46,7 +46,8 @@ ModelImporter:
     400036: transform2
     400038: transform3
     4300000: pSphere10
-    7400000: Take 001
+    7400000: Normal
+    7400002: Exit
     9500000: //RootNode
     13700000: pSphere10
   materials:
@@ -69,7 +70,143 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Normal
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__joint24
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint13
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint13/pasted__joint14
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint13/pasted__joint14/pasted__joint15
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint13/pasted__joint14/pasted__joint16
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint17
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint17/pasted__joint18
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint19
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint19/pasted__joint20
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint22
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint22/pasted__joint23
+        weight: 1
+      - path: pSphere4
+        weight: 1
+      - path: pSphere4/transform3
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      - path: pSphere5/transform2
+        weight: 1
+      - path: pSphere9
+        weight: 1
+      - path: pSphere9/transform1
+        weight: 1
+      - path: pSphere10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: Exit
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__joint24
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint13
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint13/pasted__joint14
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint13/pasted__joint14/pasted__joint15
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint13/pasted__joint14/pasted__joint16
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint17
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint17/pasted__joint18
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint19
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint19/pasted__joint20
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint22
+        weight: 1
+      - path: group1/pasted__joint24/pasted__joint22/pasted__joint23
+        weight: 1
+      - path: pSphere4
+        weight: 1
+      - path: pSphere4/transform3
+        weight: 1
+      - path: pSphere5
+        weight: 1
+      - path: pSphere5/transform2
+        weight: 1
+      - path: pSphere9
+        weight: 1
+      - path: pSphere9/transform1
+        weight: 1
+      - path: pSphere10
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []

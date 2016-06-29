@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour {
             unansweredQuestions = questions.ToList<Question>();
         }
 
-        SetCurrentQuestion();
+       // SetCurrentQuestion();
 
         timeUpWarning = GameObject.Find("TimeUp");
         timeUpWarning.SetActive(false);
@@ -103,7 +103,7 @@ public class GameManager : MonoBehaviour {
         }
 
     }
-
+    /*
     void SetCurrentQuestion()
     {
         //generates a random int as an index from the list. It will then load the question which matches this 
@@ -118,6 +118,7 @@ public class GameManager : MonoBehaviour {
         answer3Text.text = currentQuestion.A3Text;
         answer4Text.text = currentQuestion.A4Text;
     }
+    */
 
     IEnumerator TransitionToNextQuestion()
     {
@@ -129,7 +130,7 @@ public class GameManager : MonoBehaviour {
         //this will reload the scene with the next question
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);        
     }
-
+    /*
 	public void UserSelectA1()//if user selects A1 button
     {
         if (buttonsActive)
@@ -220,6 +221,7 @@ public class GameManager : MonoBehaviour {
             StartCoroutine(TransitionToNextQuestion());
         }
     }
+    */
 
 	void SetGlobalScore ()
 	{

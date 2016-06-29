@@ -64,6 +64,7 @@
     <Compile Include="Assets\Caustics\AnimatedProjector.cs" />
     <Compile Include="Assets\Caustics\Caustics.cs" />
     <Compile Include="Assets\Free_Rocks\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\InteractiveButton.cs" />
     <Compile Include="Assets\Script\Managers\GameController.cs" />
     <Compile Include="Assets\Script\Question2.cs" />

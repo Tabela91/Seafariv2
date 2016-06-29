@@ -188,6 +188,8 @@ ModelImporter:
     4300000: pCube1
     4300002: pPipe2
     4300004: pPipe3
+    6400000: pPipe2
+    6400002: pPipe3
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -215,7 +217,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
