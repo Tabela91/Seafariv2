@@ -39,7 +39,7 @@ public class GameController : MonoSingleton <GameController> {
 
 	public List <Question> GetSessionQuestions () {
 
-		return questionCollection.GetQuestions (2); // this changes to 10 in the final version
+		return questionCollection.GetQuestions (10); // this changes to 10 in the final version
 
 	}
 	#endregion

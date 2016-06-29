@@ -8,6 +8,9 @@ public class Question {
 	[XmlAttribute ("value")]
     public string question;
 
+    [XmlAttribute("fish")]
+    public string fish;
+
 	[XmlAttribute ("correct")]
 	public string correct;
 

@@ -1,22 +1,404 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<seafari update="2015-06-24">
-	<questions>
-		<question value="What am I" correct="3">
-			<answers>
-				<answer value="One" />
-				<answer value="Two" />
-				<answer value="Three" />
-				<answer value="Four" />
-			</answers>
-		</question>
-		<question value="Who am I" correct="2">
-			<answers>
-				<answer value="One" />
-				<answer value="Two" />
-				<answer value="Three" />
-				<answer value="Four" />
-			</answers>
-		</question>
-	</questions>
+<seafari update="2016-06-28T21:49">
+    <questions>
+        <question value="What is the binomial name for the Nursehound pups?" fish="1" correct="2">
+            <answer value="Scyliorhinus stellaris"></answer>
+            <answer value="Scorpaena notate"></answer>
+            <answer value="Muraena helena"></answer>
+            <answer value="Sarpa salpa"></answer>
+        </question>
+        <question value="The Nursehound is:" fish="1" correct="0">
+            <answer value="Near threatened"></answer>
+            <answer value="Extinct"></answer>
+            <answer value="Not threatened"></answer>
+            <answer value="Endangered"></answer>
+        </question>
+        <question value="A Nursehound can reach a length of:" fish="1" correct="0">
+            <answer value="160cm"></answer>
+            <answer value="180cm"></answer>
+            <answer value="130cm"></answer>
+            <answer value="145cm"></answer>
+        </question>
+        <question value="What is the binomial name of the Mediterranean parrot fish?" fish="2" correct="1">
+            <answer value="Liza ramada"></answer>
+            <answer value="Sparusina cretense"></answer>
+            <answer value="Diplodus sargus"></answer>
+            <answer value="Balistes capriscus"></answer>
+        </question>
+        <question value="Where us the Mediterranean parrot fish mainly found?" fish="2" correct="3">
+            <answer value="Surf zone"></answer>
+            <answer value="Seagrass beds"></answer>
+            <answer value="Sandy bottoms"></answer>
+            <answer value="Rocky Shores"></answer>
+        </question>
+        <question value="What does the Mediterranean parrot fish feed on ?" fish="2" correct="0">
+            <answer value="Plankton, seaweed, shrimp, crabs"></answer>
+            <answer value="Fish, oysters"></answer>
+            <answer value="Molluscs, fish, seaweed"></answer>
+            <answer value="Cephalopods, fish, crabs, molluscs"></answer>
+        </question>
+        <question value="What is the binomial name of the Blue Runner?" fish="3" correct="1">
+            <answer value="Sparus aurata"></answer>
+            <answer value="Caranx crysos"></answer>
+            <answer value="Spicara maena"></answer>
+            <answer value="Epinephelus marginatus"></answer>
+        </question>
+        <question value="What is the maximum length of a Blue Runner?" fish="3" correct="0">
+            <answer value="70cm"></answer>
+            <answer value="55cm"></answer>
+            <answer value="80cm"></answer>
+            <answer value="60cm"></answer>
+        </question>
+        <question value="What is the habitat of the Blue Runner?" fish="3" correct="0">
+            <answer value="Both inshore and offshore environments"></answer>
+            <answer value="Inshore environments"></answer>
+            <answer value="Offshore environments"></answer>
+            <answer value="Sandy bottoms"></answer>
+        </question>
+        <question value="What is the scientific name of the Derbio?" fish="4" correct="2">
+            <answer value="Raja undulata"></answer>
+            <answer value="Carnax crysos"></answer>
+            <answer value="Trachinotus ovatus"></answer>
+            <answer value="Sparus aurata"></answer>
+        </question>
+        <question value="What does Derbio feed on? " fish="4" correct="0">
+            <answer value="Small crustaceans, crabs"></answer>
+            <answer value="Fish, seaweed"></answer>
+            <answer value="Seaweed, cephalopods"></answer>
+            <answer value="Shrimp, fish, seaweed"></answer>
+        </question>
+        <question value="Where is the Derbio commonly found? " fish="4" correct="1">
+            <answer value="Rocky bottoms"></answer>
+            <answer value="Sandy beaches"></answer>
+            <answer value="Sea grass beds"></answer>
+            <answer value="Polluted waters"></answer>
+        </question>
+        <question value="What is the scientific name of Horse Mackerel?" fish="5" correct="0">
+            <answer value="Trachurus trachurus"></answer>
+            <answer value="Boops boops"></answer>
+            <answer value="Liza ramada"></answer>
+            <answer value="Epinephelus marginatus"></answer>
+        </question>
+        <question value="What does the Horse Mackerel feed on?" fish="5" correct="2">
+            <answer value="Crabs, plankton"></answer>
+            <answer value="Seaweed, fish"></answer>
+            <answer value="Fish, cephalopods"></answer>
+            <answer value="Tube worms, plankton"></answer>
+        </question>
+        <question value="What is the average length of the Horse Mackerel?" fish="5" correct="0">
+            <answer value="70cm"></answer>
+            <answer value="50cm"></answer>
+            <answer value="90cm"></answer>
+            <answer value="35cm"></answer>
+        </question>
+        <question value="What is the binomial name of the Boops?" fish="6" correct="0">
+            <answer value="Boops Boops"></answer>
+            <answer value="Liza ramada"></answer>
+            <answer value="Epinephelus marginatus"></answer>
+            <answer value="Hippocampus abdominalis"></answer>
+        </question>
+        <question value="What is the maximum length the Boops can reach?" fish="6" correct="0">
+            <answer value="36cm"></answer>
+            <answer value="20cm"></answer>
+            <answer value="48cm"></answer>
+            <answer value="11cm"></answer>
+        </question>
+        <question value="What is the maximum depth that Boops can reach?" fish="6" correct="2">
+            <answer value="1750m"></answer>
+            <answer value="250m"></answer>
+            <answer value="350m"></answer>
+            <answer value="50m"></answer>
+        </question>
+        <question value="What is the scientific name for the Thin Lipped Grey Mullet?" fish="7" correct="0">
+            <answer value="Liza ramada"></answer>
+            <answer value="Scyliorhinus canicula"></answer>
+            <answer value="Muraena helena"></answer>
+            <answer value="Scorpaena notate"></answer>
+        </question>
+        <question value="What is the maximum length of a Mullet?" fish="7" correct="3">
+            <answer value="50cm"></answer>
+            <answer value="80cm"></answer>
+            <answer value="60cm"></answer>
+            <answer value="70cm"></answer>
+        </question>
+        <question value="Where is the Mullet likely to be found?" fish="7" correct="2">
+            <answer value="Deep oceans"></answer>
+            <answer value="Clean water"></answer>
+            <answer value="Polluted waters"></answer>
+            <answer value="Coral reefs"></answer>
+        </question>
+        <question value="What is the binomial name of the Lesser spotted catshark pups?" fish="8" correct="0">
+            <answer value="Scyliorhinus canicula"></answer>
+            <answer value="Muraena Helena"></answer>
+            <answer value="Sarpa salpa"></answer>
+            <answer value="Coris julis"></answer>
+        </question>
+        <question value="What is the maximum length Lesser spotted catshark pup can reach?" fish="8" correct="0">
+            <answer value="1m"></answer>
+            <answer value="1.5m"></answer>
+            <answer value="0.8m"></answer>
+            <answer value="0.5m"></answer>
+        </question>
+        <question value="At what depth are you most likely to find Lesser spotted catshark pups?" fish="8" correct="0">
+            <answer value="0-400m"></answer>
+            <answer value="0-200m"></answer>
+            <answer value="0-300m"></answer>
+            <answer value="0-250m"></answer>
+        </question>
+        <question value="At a young age, what do the Lesser spotted catshark pup feed on?" fish="8" correct="0">
+            <answer value="Mollusks"></answer>
+            <answer value="Hermit crabs"></answer>
+            <answer value="Crustaceans"></answer>
+            <answer value="Fish"></answer>
+        </question>
+        <question value="The Gilthead Seabream feeds on:" fish="9" correct="0">
+            <answer value="Plankton, shrimp, crabs"></answer>
+            <answer value="Seaweed, cephalopods, crabs"></answer>
+            <answer value="Fish, seaweed, tube worms"></answer>
+            <answer value="Molluscs, fish"></answer>
+        </question>
+        <question value="What is the scientific name of the Gilthead Seabream?" fish="9" correct="0">
+            <answer value="Sparus aurata"></answer>
+            <answer value="Scyliorhinus canicula"></answer>
+            <answer value="Paracherirodon axelrodi"></answer>
+            <answer value="Raja undulata"></answer>
+        </question>
+        <question value="Where is the Gilthead Seabream usually found?" fish="9" correct="0">
+            <answer value="Seagrass Beds"></answer>
+            <answer value="Rock areas"></answer>
+            <answer value="Sandy bottoms"></answer>
+            <answer value="Surf zone"></answer>
+        </question>
+        <question value="The Gilthead Seabream can weigh up to:" fish="9" correct="0">
+            <answer value="17kg"></answer>
+            <answer value="10kg"></answer>
+            <answer value="20kg"></answer>
+            <answer value="13kg"></answer>
+        </question>
+        <question value="The average length of a Gilthead Seabream is:" fish="9" correct="3">
+            <answer value="30cm"></answer>
+            <answer value="25cm"></answer>
+            <answer value="45cm"></answer>
+            <answer value="35cm"></answer>
+        </question>
+        <question value="What is the binomial name of the Cardinal Tetra?" fish="10" correct="0">
+            <answer value="Paracheirodon axelrodi"></answer>
+            <answer value="Nemateleotris magnifica"></answer>
+            <answer value="Carcharhinus melanopterus"></answer>
+            <answer value="Scyliorhinus canicula"></answer>
+        </question>
+        <question value="What is the maximum length a Cardinal Tetra can reach?" fish="10" correct="2">
+            <answer value="8cm"></answer>
+            <answer value="5cm"></answer>
+            <answer value="3cm"></answer>
+            <answer value="14cm"></answer>
+        </question>
+        <question value="what does the Cardinal Tetra feed on?" fish="10" correct="0">
+            <answer value="Plankton, seaweed, molluscs"></answer>
+            <answer value="Cephalopods, fish"></answer>
+            <answer value="Fish, plankton, shrimp"></answer>
+            <answer value="Tube worms, crabs, seaweed"></answer>
+        </question>
+        <question value="What is the scientific name of the Zebra Shark?" fish="11" correct="0">
+            <answer value="Stegostoma fasciatum"></answer>
+            <answer value="Scomber scombrus"></answer>
+            <answer value="Tranchinotus ovantus"></answer>
+            <answer value="Dascyllus trimaculatus"></answer>
+        </question>
+        <question value="What is the deepest a Zebra Shark has been found?" fish="11" correct="3">
+            <answer value="85m"></answer>
+            <answer value="55m"></answer>
+            <answer value="70m"></answer>
+            <answer value="62m"></answer>
+        </question>
+        <question value="What is the maximum length a Zebra Shark can reach?" fish="11" correct="0">
+            <answer value="2.5m"></answer>
+            <answer value="2m"></answer>
+            <answer value="3m"></answer>
+            <answer value="3.5m"></answer>
+        </question>
+        <question value="What is the binomial name of Domino Damsel?" fish="12" correct="0">
+            <answer value="Dascyllus trimaculatus"></answer>
+            <answer value="Stegostoma Fasciatum"></answer>
+            <answer value="Trachinotus ovatus"></answer>
+            <answer value="Spicara maena"></answer>
+        </question>
+        <question value="What is the maximum length a Domino Damsel can reach?" fish="12" correct="0">
+            <answer value="13cm"></answer>
+            <answer value="20cm"></answer>
+            <answer value="10cm"></answer>
+            <answer value="27cm"></answer>
+        </question>
+        <question value="At what depths can a Domino Damsel be found?" fish="12" correct="1">
+            <answer value="1-75m"></answer>
+            <answer value="1-55m"></answer>
+            <answer value="20-75m"></answer>
+            <answer value="10-65m"></answer>
+        </question>
+        <question value="What is the scientific name of the Black tip reef shark?" fish="13" correct="0">
+            <answer value="Carcharhinus melanopterus"></answer>
+            <answer value="Nemateleotris magnifica"></answer>
+            <answer value="Trachinotus ovatus"></answer>
+            <answer value="Balistes capriscus"></answer>
+        </question>
+        <question value="What is the common length of a Black tip reef shark?" fish="13" correct="3">
+            <answer value="1.8m"></answer>
+            <answer value="0.9m"></answer>
+            <answer value="2.1m"></answer>
+            <answer value="1.4m"></answer>
+        </question>
+        <question value="What is the IUCN rating for the Black tip reef shark?" fish="13" correct="0">
+            <answer value="Near threatened"></answer>
+            <answer value="Least concern"></answer>
+            <answer value="Vulnerable"></answer>
+            <answer value="Endangered"></answer>
+        </question>
+        <question value="What is the binomial name of the Fire Goby?" fish="14" correct="1">
+            <answer value="Carcharhinus melanopterus"></answer>
+            <answer value="Nemateleotris magnifica"></answer>
+            <answer value="Balistes capriscus"></answer>
+            <answer value="Liza ramada"></answer>
+        </question>
+        <question value="At what depths can the Fire Goby be found?" fish="14" correct="2">
+            <answer value="0-60m"></answer>
+            <answer value="14-90m"></answer>
+            <answer value="6m-70m"></answer>
+            <answer value="10-80m"></answer>
+        </question>
+        <question value="What is the maximum length a Fire Goby can reach?" fish="14" correct="0">
+            <answer value="9cm"></answer>
+            <answer value="13cm"></answer>
+            <answer value="20cm"></answer>
+            <answer value="5cm"></answer>
+        </question>
+        <question value="What is the maximum length a Black tip reef shark can reach?" fish="15" correct="0">
+            <answer value="1.5m"></answer>
+            <answer value="2m"></answer>
+            <answer value="1m"></answer>
+            <answer value="2.5m"></answer>
+        </question>
+        <question value="What is the maximum depth a Leopard shark can be found?" fish="15" correct="3">
+            <answer value="75m"></answer>
+            <answer value="104m"></answer>
+            <answer value="84m"></answer>
+            <answer value="91m"></answer>
+        </question>
+        <question value="What does the Leopard shark feed on?" fish="15" correct="0">
+            <answer value="Fish, cephalopods, tube worms, crabs"></answer>
+            <answer value="Seaweed"></answer>
+            <answer value="Fish, seaweed, clams"></answer>
+            <answer value="Plankton, shrimp, crabs"></answer>
+        </question>
+        <question value="What is the scientific name of the Moray eel?" fish="16" correct="0">
+            <answer value="Fish"></answer>
+            <answer value="Small crustaceans"></answer>
+            <answer value="Molluscs"></answer>
+            <answer value="Crabs"></answer>
+        </question>
+        <question value="According to the IUCN rating, the Moray eel is:" fish="16" correct="1">
+            <answer value="Least concern"></answer>
+            <answer value="Not threatened"></answer>
+            <answer value="Extinct"></answer>
+            <answer value="Endangered"></answer>
+        </question>
+        <question value="What is the maximum length a Moray eel can reach?" fish="16" correct="2">
+            <answer value="170 cm"></answer>
+            <answer value="120 cm"></answer>
+            <answer value="150 cm"></answer>
+            <answer value="135 cm"></answer>
+        </question>
+        <question value="Where is the Moray eel likely to be found?" fish="16" correct="0">
+            <answer value="Rocky bottoms"></answer>
+            <answer value="Sandy bottoms"></answer>
+            <answer value="Coral reefs"></answer>
+            <answer value="Surf zone"></answer>
+        </question>
+        <question value="What is the binomial name of the Regal tang?" fish="17" correct="1">
+            <answer value="Amphiprion ocellaris"></answer>
+            <answer value="Paracanthurus hepatus"></answer>
+            <answer value="Balistes capriscus"></answer>
+            <answer value="Diplodus sargus"></answer>
+        </question>
+        <question value="What is the maximum length the Regal tang can reach?" fish="17" correct="1">
+            <answer value="28 cm"></answer>
+            <answer value="31 cm"></answer>
+            <answer value="56 cm"></answer>
+            <answer value="24 cm"></answer>
+        </question>
+        <question value="Where is the Regal tang commonly found?" fish="17" correct="2">
+            <answer value="Deep waters"></answer>
+            <answer value="Sandy bottoms"></answer>
+            <answer value="Coral reefs"></answer>
+            <answer value="Rocky bottoms"></answer>
+        </question>
+        <question value="What is the binomial name of the Clownfish?" fish="18" correct="1">
+            <answer value="Balistes capriscus"></answer>
+            <answer value="Amphiprion ocellaris"></answer>
+            <answer value="Trachinotus ovatus"></answer>
+            <answer value="Spicara maena"></answer>
+        </question>
+        <question value="What does the Clownfish feed on?" fish="18" correct="2">
+            <answer value="Crabs"></answer>
+            <answer value="Seaweed"></answer>
+            <answer value="Plankton"></answer>
+            <answer value="Tube worms"></answer>
+        </question>
+        <question value="What is the maximum depth at which a Clownfish can be found?" fish="18" correct="0">
+            <answer value="15m"></answer>
+            <answer value="10m"></answer>
+            <answer value="20m"></answer>
+            <answer value="25m"></answer>
+        </question>
+        <question value="What is the scientific name of the Pompano fish?" fish="19" correct="0">
+            <answer value="Trachinotus ovatus"></answer>
+            <answer value="Epinephelus marginatus"></answer>
+            <answer value="Spicara maena"></answer>
+            <answer value="Sparus aurata"></answer>
+        </question>
+        <question value="What is the depth range at which the Pompano can be found?" fish="19" correct="0">
+            <answer value="50-200m"></answer>
+            <answer value="100-250m"></answer>
+            <answer value="0-100 m"></answer>
+            <answer value="0-150 m"></answer>
+        </question>
+        <question value="What is the scientific name of the Clown triggerfish?" fish="20" correct="1">
+            <answer value="Caranx crysos"></answer>
+            <answer value="Balistoides conspicillum"></answer>
+            <answer value="Sparisoma cretense"></answer>
+            <answer value="Hippocampus abdominalis"></answer>
+        </question>
+        <question value="What is the maximum length a Clown Triggerfish can reach?" fish="20" correct="0">
+            <answer value="50cm"></answer>
+            <answer value="40cm"></answer>
+            <answer value="55cm"></answer>
+            <answer value="60cm"></answer>
+        </question>
+        <question value="What maximum depth can a Clown Triggerfish reach?" fish="20" correct="1">
+            <answer value="45m"></answer>
+            <answer value="75m"></answer>
+            <answer value="60m"></answer>
+            <answer value="90m"></answer>
+        </question>
+    </questions>
+    <aquarium>
+        <fish fish_id="1" name="Nursehound pups"></fish>
+        <fish fish_id="2" name="Mediterranean parrot fish"></fish>
+        <fish fish_id="3" name="Blue runner"></fish>
+        <fish fish_id="4" name="Derbio"></fish>
+        <fish fish_id="5" name="Horse Mackerel"></fish>
+        <fish fish_id="6" name="Boops"></fish>
+        <fish fish_id="7" name="Thin lipped grey mullet"></fish>
+        <fish fish_id="8" name="Lesser spotted catshark pups"></fish>
+        <fish fish_id="9" name="Gilthead seabream"></fish>
+        <fish fish_id="10" name="Cardinal tetra"></fish>
+        <fish fish_id="11" name="Zebra Shark"></fish>
+        <fish fish_id="12" name="Domino Damsel"></fish>
+        <fish fish_id="13" name="Black tip reef shark"></fish>
+        <fish fish_id="14" name="Fire goby"></fish>
+        <fish fish_id="15" name="Leopard shark"></fish>
+        <fish fish_id="16" name="Moray eel"></fish>
+        <fish fish_id="17" name="Regal tang"></fish>
+        <fish fish_id="18" name="Clownfish"></fish>
+        <fish fish_id="19" name="Pompano"></fish>
+        <fish fish_id="20" name="Clown Triggerfish"></fish>
+    </aquarium>
 </seafari>
