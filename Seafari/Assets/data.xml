@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<seafari update="2015-06-24">
+	<questions>
+		<question value="What am I" correct="3">
+			<answers>
+				<answer value="One" />
+				<answer value="Two" />
+				<answer value="Three" />
+				<answer value="Four" />
+			</answers>
+		</question>
+		<question value="Who am I" correct="2">
+			<answers>
+				<answer value="One" />
+				<answer value="Two" />
+				<answer value="Three" />
+				<answer value="Four" />
+			</answers>
+		</question>
+	</questions>
+</seafari>
